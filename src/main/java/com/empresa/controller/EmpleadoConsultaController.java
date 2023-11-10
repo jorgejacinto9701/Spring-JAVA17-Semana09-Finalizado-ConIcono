@@ -52,7 +52,6 @@ public class EmpleadoConsultaController {
 	}
 	
 	@GetMapping("/reporteEmpleadoPdf")
-	@ResponseBody
 	public void reporte(HttpServletRequest request, 
 						HttpServletResponse response,
 						boolean paramEstado,
